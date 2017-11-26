@@ -105,10 +105,10 @@
         this.paginateList()
       },
       list: function list () {
-        if (this.initialListSize !== this.list.length) {
+        // if (this.initialListSize !== this.list.length) {
           // On list change, refresh the paginated list only if list size has changed
-          this.currentPage = 0
-        }
+          // this.currentPage = 0
+        // }
         this.paginateList()
       },
       per: function per () {
